@@ -45,6 +45,7 @@ cc_library_shared {
         "needs_oplus_vendor_tag",
         "no_cameraserver_defaults",
         "uses_oplus_camera_defaults",
+        "uses_oppo_camera_defaults",
         "uses_nothing_camera_defaults",
         "camera_needs_miui_camera_mode_support_defaults",
         "camera_needs_camera_needs_depth_sensor_override_defaults",
