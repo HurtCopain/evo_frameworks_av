@@ -59,6 +59,9 @@
 #define ALOGVV(...) ((void)0)
 #endif
 
+#ifdef NEEDS_OPLUS_VENDOR_TAG
+#define TAG_NAME "com.oplus.packageName"
+#endif
 #ifdef USES_OPLUS_CAMERA
 #define TAG_NAME "com.oplus.packageName"
 #endif

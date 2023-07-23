@@ -41,6 +41,7 @@ cc_library_shared {
         "includes_miui_camera",
         "camera_needs_client_info_lib_defaults",
         "needs_camera_boottime_defaults",
+        "needs_oplus_vendor_tag",
         "no_cameraserver_defaults",
         "uses_oplus_camera_defaults",
         "uses_nothing_camera_defaults",
