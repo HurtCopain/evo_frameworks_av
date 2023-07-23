@@ -38,8 +38,8 @@ license {
 cc_library_shared {
     name: "libcameraservice",
     defaults: [
-        "includes_miui_camera",
         "camera_needs_client_info_lib_defaults",
+        "includes_miui_camera",
         "needs_camera_boottime_defaults",
         "needs_oplus_vendor_tag",
         "no_cameraserver_defaults",
